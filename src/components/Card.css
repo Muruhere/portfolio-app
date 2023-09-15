@@ -1,0 +1,32 @@
+.card-container {
+    background: rgb(28, 28, 28);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.card-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.position-text {
+    color: rgba(64, 185, 254, 255);
+    text-decoration: solid;
+}
+
+.img-style {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .img-style {
+        width: 100px;
+        height: 100px;
+    }
+}
