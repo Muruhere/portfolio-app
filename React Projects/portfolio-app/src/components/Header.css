@@ -1,0 +1,22 @@
+.header-container {
+    min-height: 50px;
+    height: 100%;
+    max-height: 100px;
+    background: rgb(28, 28, 28);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    opacity: 80%;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
