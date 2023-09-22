@@ -1,11 +1,12 @@
 .card-container {
-    background: rgb(28, 28, 28);
+    background: rgb(202, 225, 238);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
+    opacity: 80%;
 }
 
 .card-contents {
@@ -14,7 +15,7 @@
 }
 
 .position-text {
-    color: rgba(64, 185, 254, 255);
+    color: rgb(8, 119, 184);
     text-decoration: solid;
 }
 
@@ -22,6 +23,40 @@
     width: 200px;
     height: 200px;
     border-radius: 10px;
+}
+
+h1,
+.link-text {
+    color: black;
+}
+
+.projects-link {
+    font-size: large;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+li {
+    color: black;
+}
+
+.resume-button {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.skill-items {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.list-items:hover,
+a:hover {
+    color: rgba(64, 185, 254, 255);
 }
 
 @media screen and (max-width:576px) {

@@ -5,6 +5,7 @@ import { Contact } from './components/Contact';
 import Container from './components/Container';
 import './index.css';
 import { Layout } from './layout';
+import { Resume } from './components/Resume';
 
 const Route = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const Route = createBrowserRouter([
         element: <Contact />
       }
     ]
+  },
+  {
+    path: '/resume',
+    element: <Resume />
   }]
 );
 
