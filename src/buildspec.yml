@@ -1,0 +1,19 @@
+version: 0.2
+env:
+  variables:
+    APP_NAME: "portfolio-app"
+phases:
+  install:
+    commands:
+      - echo install process started
+      - npm install
+  build:
+    commands:
+      - echo build process started now
+      - npm run build
+  post_build:
+    commands:
+      - echo build process finished
+      - cd build
+      - ls -la
+      - aws s3 sync . s3://portfolio-app-bucket --delete
