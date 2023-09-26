@@ -1,0 +1,15 @@
+.contact-box {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    opacity: 80%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background: rgb(28, 28, 28);
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}

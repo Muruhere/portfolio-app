@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { Contact } from './components/Contact';
+import { Contact } from './components/Contact/Contact';
 import Container from './components/Container';
 import './index.css';
 import { Layout } from './layout';

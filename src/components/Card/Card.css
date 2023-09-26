@@ -15,8 +15,9 @@
 }
 
 .position-text {
-    color: rgb(8, 119, 184);
-    text-decoration: solid;
+    background: linear-gradient(to right, rgb(0, 111, 176),  rgb(39, 158, 227));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .img-style {

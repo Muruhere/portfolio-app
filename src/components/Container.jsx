@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "../components/Card/Card";
 import eng from '../assets/desc_img.jpg'
 
 export default function Container() {
@@ -20,7 +20,7 @@ export default function Container() {
 
     return (
         <>
-            <Card title="Placeholder"
+            <Card title="Murugan V"
                 desc="Full Stack Developer"
                 imgSrc={eng}
             />

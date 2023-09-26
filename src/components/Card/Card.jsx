@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../components/Card.css';
+import '../Card/Card.css';
 
 function Card({ title, desc, imgSrc, links, skills, isPreview }) {
 
@@ -37,7 +37,7 @@ function Card({ title, desc, imgSrc, links, skills, isPreview }) {
                 </ul>)
                 }
                 <div className='resume-button'>
-                    {isPreview && <Link to='/resume' className='link-text' target='_blank' rel='noreferrer'>Preview Resume</Link>}
+                    {isPreview && <Link to='/resume' className='link-text' target='_blank' rel='noreferrer'>Resume preview</Link>}
                 </div>
             </div>
             {
